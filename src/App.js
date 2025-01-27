@@ -19,7 +19,7 @@ function App() {
 		<CssBaseline enableColorScheme/>
 		<div className="App">
 			<header className="App-header">
-				<a href={iq_eqLink} target={"_blank"} rel="noopener"><img src="logo512.png" className="App-logo"
+				<a href={iq_eqLink} target={"_blank"} rel="noreferrer"><img src="logo512.png" className="App-logo"
 				                                                         alt="logo"/></a>
 				<h1>
 					VoiceBox
@@ -31,7 +31,7 @@ function App() {
 		</div>
 		<footer>
 			<div className="App-footer">
-				<small>&copy; 2023-2025 by <a href={iq_eqLink} target={"_blank"} rel="noopener">CharaChorder</a></small>
+				<small>&copy; 2023-2025 by <a href={iq_eqLink} target={"_blank"} rel="noreferrer">CharaChorder</a></small>
 			</div>
 			<div className="App-footer">
 				<img src="white-short.svg" alt="Translated by Google"/>
