@@ -10,9 +10,9 @@ const darkTheme = createTheme({
 	},
 });
 
-const iq_eqLink = "https://iq-eq.us/";
-const canonicalLink = "https://voicebox.iq-eq.us/";
-const fossLink = "https://iq-eq-us.github.io/voicebox/";
+const iq_eqLink = "https://charachorder.io/";
+const canonicalLink = "https://voicebox.charachorder.io/";
+const fossLink = "https://charachorder.github.io/voicebox/";
 
 function App() {
 	return (<ThemeProvider theme={darkTheme}>
@@ -31,20 +31,20 @@ function App() {
 		</div>
 		<footer>
 			<div className="App-footer">
-				<small>&copy; 2023 by <a href={iq_eqLink} target={"_blank"} rel="noopener">iq-eq</a></small>
+				<small>&copy; 2023-2025 by <a href={iq_eqLink} target={"_blank"} rel="noopener">CharaChorder</a></small>
 			</div>
 			<div className="App-footer">
 				<img src="white-short.svg" alt="Translated by Google"/>
 			</div>
 			<div className="Disclaimer">
 				<small>
-					This service may contain translations powered by Google. iq-eq and Google disclaim all warranties
-					related to the translations, express or implied, including any warranties of accuracy, reliability,
+					This service may contain translations powered by Google. CharaChorder, iq-eq and Google disclaim all
+					warranties related to the translations, express or implied, including any warranties of accuracy, reliability,
 					and any implied warranties of merchantability, fitness for a particular purpose and noninfringement.
 				</small>
 				<br/>
 				<small>
-					We (iq-eq) do not collect any data when you use the <a href={fossLink}>GitHub pages version</a>.
+					We (CharaChorder) do not collect any data when you use the <a href={fossLink}>GitHub pages version</a>.
 					<br/>
 					However, Google may collect data from your use of the Translate with Google feature, and as we use
 					Google's TTS service.
